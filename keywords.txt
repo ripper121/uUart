@@ -1,0 +1,5 @@
+uUart       KEYWORD1
+receive	    KEYWORD2
+send        KEYWORD3
+putstring   KEYWORD4
+init        KEYWORD5
