@@ -2,11 +2,13 @@
 uUart uart;
 
 void setup() {
-  // put your setup code here, to run once:
-  uart.init(250000);
+  //Set Baud
+  uart.init(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  //Echo Uart
   uart.send(uart.receive());
+  //Print String
+  uart.print("\nHello World\n");
 }

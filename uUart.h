@@ -8,7 +8,7 @@ class uUart
     uUart();
     void init(unsigned long baud);
     void send(unsigned char data);
-    void putstring(char* StringPtr); 
+    void print(char* StringPtr); 
     unsigned char receive();    
 };
 
