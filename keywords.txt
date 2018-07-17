@@ -1,5 +1,5 @@
 uUart	KEYWORD1
 receive		KEYWORD2
-send	KEYWORD3
-print	KEYWORD4
-init	KEYWORD5
+send	KEYWORD2
+print	KEYWORD2
+init	KEYWORD2
